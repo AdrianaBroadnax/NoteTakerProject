@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "NoteTakerProject",
+			"path": "."
+		},
+		{
+			"name": "db",
+			"path": "../../ClassWork/upenn-phi-virt-fsf-pt-08-2021-u-c/01-Activities/11-Express/02-Homework/Develop/db"
+		},
+		{
+			"name": "assets",
+			"path": "../../ClassWork/upenn-phi-virt-fsf-pt-08-2021-u-c/01-Activities/11-Express/02-Homework/Develop/public/assets"
+		}
+	],
+	"settings": {}
+}
