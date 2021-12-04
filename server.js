@@ -3,6 +3,7 @@ const express = require('express');
 // importing file path resolution
 const path = require('path');
 const noteData = require('db.json');
+const inquirer = require ('inquirer');
 
 // creating out server object
 const app = express ();
@@ -23,7 +24,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'notes.html'));
 });
 
-'/api/notes'
+// GET http://localhost:3001/
 app.get('/api/notes', (req, res) => res.json(noteData));
 
 app.listen(PORT, () =>

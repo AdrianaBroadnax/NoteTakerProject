@@ -1,0 +1,25 @@
+{
+  "name": "NoteTakerProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianaBroadnax/NoteTakerProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianaBroadnax/NoteTakerProject/issues"
+  },
+  "homepage": "https://github.com/AdrianaBroadnax/NoteTakerProject#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "save": "^2.4.0"
+  }
+}
