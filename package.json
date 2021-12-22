@@ -20,6 +20,9 @@
   "homepage": "https://github.com/AdrianaBroadnax/NoteTakerProject#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "save": "^2.4.0"
+    "inquirer": "^8.2.0",
+    "path": "^0.12.7",
+    "save": "^2.4.0",
+    "uuid": "^8.3.2"
   }
 }
