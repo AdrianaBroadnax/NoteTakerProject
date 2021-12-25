@@ -6,7 +6,7 @@ const {
   writeToFile,
 } = require('../helpers/fsUtils');
 
-// GET Route for retrieving all the tips
+// GET Route for retrieving all the notes
 router.get('/', (req, res) => {
   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
