@@ -36,5 +36,9 @@ Currently working on the to be deleted ..
 
 ## Deployed Links
 
+https://adrianabroadnax.github.io/NoteTakerProject/
 
+https://thenotetakerr.herokuapp.com/
+
+https://watch.screencastify.com/v/kV4CcDwCaaI7UhwVdTiq
 

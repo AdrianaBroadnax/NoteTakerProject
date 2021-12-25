@@ -26,8 +26,6 @@ app.use(express.static('public'));
 // GET http://localhost:3001/notes
 // changed '/' to '/notes'
 
-
-
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, './public/notes.html'));
 });
