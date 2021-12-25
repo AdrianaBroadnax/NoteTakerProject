@@ -39,7 +39,7 @@ router.delete('/:router_id', (req, res) => {
       .then((data) => JSON.parse(data))
       .then((json) => {
         // Make an array of notes except the one with the ID provided in the URL
-        const result = json.filter((newNotw) => router.router_id !== routerId);
+        const result = json.filter((router) => router.router_id !== routerId);
   
         // Save that array to the filesystem
         writeToFile('./db/db.json', result);

@@ -18,6 +18,7 @@ app.use(clog);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
+
 // determines the supporting assets are getting pulled from
 app.use(express.static('public'));
 
@@ -35,23 +36,8 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
-//app.get('/', (req,res) => res.send('/notes'));
-// GET http://localhost:3001/api/notes?
-// created a route??? where did noteData come from?
-// do hi have to add the res.sendFile ?
-
-// API ROUTES
-//app.get('/api/notes', (req, res) => res.json(noteData));
-
-// API POST ROUTE
-
-
-// API DELETE ROUTE
 
 app.listen(PORT, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
 );
 
-// how to attach the front end to the back end
-// how to GET * to return the index.html ?
-// what does the * represent ?
